@@ -49,3 +49,13 @@ services:
 #dockerfile is) - "docker build -f Docker.dev ."
 #creating the containee - "docker run ."
 #running docker compose: "docker-compose up --build"
+#for pushing into git, in the project folder type:
+#"git init" - will create a local git repository
+#"git add ." - will add all the current folder files
+#"git commit -m [label name]" - will commit everything locally
+#for commiting to remote- first create repo on github.com
+#"git remote add origin https://github.com/shaharlazarovich/multi-docker.git"
+#"git remote -v" - will show us our current remote
+#so we could push our local code up there by typing:
+#"git push origin master" - will push our code remotely
+#"git status" - will show us what we changed locally
